@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Code;
+namespace Code\Exceptions;
 
 
 class QueueOverloadException extends \Exception

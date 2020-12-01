@@ -1,7 +1,7 @@
 <?php
 
+use Code\Exceptions\QueueOverloadException;
 use Code\Queue;
-use Code\QueueOverloadException;
 
 class QueueFixtureTest extends \PHPUnit\Framework\TestCase
 {

@@ -4,6 +4,8 @@
 namespace Code;
 
 
+use Code\Exceptions\QueueOverloadException;
+
 class Queue
 {
     protected $item = [];
